@@ -18,7 +18,7 @@ This project converts a Markdown meeting note into a well-formatted Google Doc u
 - `google-auth-oauthlib`
 - `re` (usually included by default)
 
-If not installed, install them using:!pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+If not installed, install them using: `!pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
 
 
 ## How to Run in Colab
@@ -30,4 +30,4 @@ If not installed, install them using:!pip install --upgrade google-api-python-cl
 **Note:** This script relies on **Colab authentication** (`auth.authenticate_user()`), which only works inside Google Colab. Running this code outside of Colab may require a different authentication flow.
 
 ---
-Thank you for using this Markdown-to-Google-Docs converter!
+Thank you for using Simplify Meeting Notes!
